@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To-Do App"
+        android:text="Prepare List"
         android:textSize="48sp"
         android:fontFamily="@font/waltograph"
         android:layout_gravity="center_horizontal"
@@ -43,5 +43,16 @@
         android:orientation="vertical"
         android:background="#ABC"
         android:padding="7dp"
-        android:id="@+id/llList"/>
+        android:id="@+id/llList">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List empty. Add Task to show"
+            android:textSize="28sp"
+            android:id="@+id/tvMsg"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
 </LinearLayout>
